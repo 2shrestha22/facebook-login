@@ -1,0 +1,121 @@
+body {
+    background-color: #f0f2f5;
+}
+.main-page{
+    padding-top: 72px;
+    
+}
+.facebook-logo {
+    font-size: 55px;
+    font-weight: 700;
+    color: #1877f2;
+    padding-top: 112px;
+}
+
+.description p {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+.first-block{
+    padding-right: 32px;
+}
+.second-block{
+    margin-top: 40px;
+}
+
+
+.facebook-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 396px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+    0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.form-inputs {
+    padding: 14px 16px;
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: solid 1px #dddfe2;
+
+}
+
+.form-inputs:focus {
+    outline: none;
+}
+.btn-primary{
+    width: 100%;
+    font-size:20px;
+    font-weight: 600;
+}
+.custom-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.block{
+    text-align: center;
+}
+.forgot{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-bottom: solid 1px #d0d0d0;
+    padding-bottom: 20px;
+}
+
+.forgot a {
+    text-decoration: none;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.btm-text{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 15px;
+    width: 396px;
+    clear: both;
+}
+
+.btm-text a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.btm-text a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #fff;
+}
+
+@media only screen and (max-width:768px)
+{
+    .facebook-form{
+        width: 100%;
+    }
+    .btm-text{
+        width: 100%;
+    }
+    .main-page{
+        padding-top: 10px;
+    }
+    .facebook-logo{
+        padding-top: 10px;
+    }
+    .facebook-logo, .description p{
+        text-align: center;
+    }
+}
